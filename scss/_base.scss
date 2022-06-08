@@ -1,0 +1,43 @@
+/* @mixin font($font-family, $font-file, $font-weight, $font-style) {
+    @font-face {
+        font-family: $font-family;
+        src: url($font-file) format('opentype');
+        font-weight: $font-weight;
+        font-style: $font-style;
+    }
+}
+
+@include font('Anonymous_Pro',               'fonts/Anonymous_Pro.ttf',               '400', 'normal');
+@include font('Anonymous_Pro_B',             'fonts/Anonymous_Pro_B.ttf',             '900', 'normal');
+@include font('Anonymous_Pro_BI',            'fonts/Anonymous_Pro_BI.ttf',            '900', 'italic');
+@include font('Anonymous_Pro_I',             'fonts/Anonymous_Pro_I.ttf',             '400', 'italic');
+
+@include font('NotoSans-Bold',               'fonts/NotoSans-Bold.ttf',               '900', 'normal'); */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style-type: none;
+    /* font-family: Anonymous_Pro; */
+}
+
+a {
+    color: unset;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+html { 
+    scroll-behavior: smooth;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}

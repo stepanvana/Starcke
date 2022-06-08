@@ -1,0 +1,40 @@
+@import "config";
+@import "base";
+
+.slider-container {
+    background-color: unset!important;
+}
+
+.call-to-action.call-to-action-in-footer {
+    margin-top: 0px!important;
+    margin-bottom: 100px!important;
+
+    &::before {
+        top: 0;
+    }
+}
+
+.partners {
+    display: grid!important;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+
+    div {
+        width: 100%;
+    }
+}
+
+.main_footer {
+    margin-top: 0!important;
+}
+
+.main-404 {
+    margin-top: 89px!important;
+}
+
+.heading {
+    margin: 50px auto;
+    text-align: center;
+}
+
+@import "mobile";
